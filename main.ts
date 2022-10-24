@@ -2,7 +2,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     Bluetooth = false
     basic.clearScreen()
     basic.showString("" + (receivedNumber))
-    music.playMelody("- - - - - - - - ", 120)
+    music.playMelody("C5 B A G G F E D ", 120)
 })
 input.onButtonPressed(Button.A, function () {
     Red_Wizard = 1
